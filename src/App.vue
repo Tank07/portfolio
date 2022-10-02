@@ -1,16 +1,22 @@
 <template>
-  <div id="app">
+  
+  <div class="container" > 
     <NavBar/>
+    <AboutMe/>
   </div>
+   
+  
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
+import AboutMe from './components/AboutMe.vue'
 
 export default {
   name: 'App',
   components: {
-    NavBar
+    NavBar,
+    AboutMe
   }
 }
 </script>
