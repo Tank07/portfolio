@@ -2,6 +2,7 @@
   
   <div class="container" > 
     <NavBar/>
+    <ProfileImg/>
     <AboutMe/>
   </div>
    
@@ -10,12 +11,14 @@
 
 <script>
 import NavBar from './components/NavBar.vue'
+import ProfileImg from './components/ProfileImg.vue'
 import AboutMe from './components/AboutMe.vue'
 
 export default {
   name: 'App',
   components: {
     NavBar,
+    ProfileImg,
     AboutMe
   }
 }
